@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExchangePlan xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7ef68d66-9eee-435a-9860-14bb265f8ab9" thisNode="7776f45f-0a90-45ad-b3a4-517928e41ff0">
+  <producedTypes>
+    <objectType typeId="4e7e554c-e002-4cfb-a0ff-d40e13fb0b5a" valueTypeId="a90e5487-ae9d-47f5-8ae5-9d51e46338e7"/>
+    <refType typeId="b1881243-907c-4b16-bfa0-0e49ab458bae" valueTypeId="868d398f-1a6c-4243-8fb0-6273b4fca156"/>
+    <selectionType typeId="a695acdb-5776-44fe-b8bb-4a6ef42e415a" valueTypeId="a47bc05b-d57d-44bb-9811-4d98dbf379d9"/>
+    <listType typeId="f6e900af-62cb-4609-b7a4-4cd023f62302" valueTypeId="92a5112e-963f-4339-b529-3bb6aa394a30"/>
+    <managerType typeId="09a762f0-2d2f-40d7-b320-2e95f8f4d559" valueTypeId="7d7a845e-7926-4737-a10a-aed37c834883"/>
+  </producedTypes>
+  <name>АвтономныйМобильныйКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Автономный мобильный клиент</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExchangePlan.АвтономныйМобильныйКлиент.StandardAttribute.Description</inputByString>
+  <inputByString>ExchangePlan.АвтономныйМобильныйКлиент.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <content>
+    <mdObject>Document.ЗаказПокупателя</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.Номенклатура</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.Контрагенты</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ExchangePlan>

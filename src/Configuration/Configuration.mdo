@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eca215c2-caef-45a9-a47e-028571c3dc1c">
+  <name>МобильныйКлиентАвтономный</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мобильный клиент (автономный)</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="9981d7d1-4eea-4dd7-9dad-2dead647df65"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="e734c4e7-6ef1-4267-bfdc-1289a1b726df"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="afce4963-6879-4767-ba45-fba1f35a9ced"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="11a9406a-0291-4919-8d41-18a0c6e80625"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="30466c83-13ab-42a7-8cb1-10802775e6be"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="a6565b28-ff8f-4685-ac6f-b26dcca6a816"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="c0dfba49-fa5a-4cb0-93c8-f3bd03601407"/>
+  <configurationExtensionCompatibilityMode>8.3.26</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <version>1.0</version>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.26</compatibilityMode>
+  <languages uuid="e9646be4-061b-4204-9209-9d7ed99b1ed6">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <exchangePlans>ExchangePlan.АвтономныйМобильныйКлиент</exchangePlans>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <documents>Document.ЗаказПокупателя</documents>
+</mdclass:Configuration>
