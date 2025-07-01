@@ -44,4 +44,6 @@
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
   <documents>Document.ЗаказПокупателя</documents>
+  <documents>Document.Доставка</documents>
+  <enums>Enum.СтатусыДоставок</enums>
 </mdclass:Configuration>
