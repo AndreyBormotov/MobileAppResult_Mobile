@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="45ef2d32-9fb4-4d3e-a3a4-6df46b9e3f2e">
+  <producedTypes>
+    <objectType typeId="e37637b3-db94-42b2-b66f-02f09cd4d064" valueTypeId="9c889fe2-e131-46d9-b9f2-a87faed1ece0"/>
+    <managerType typeId="5c7897e6-33b9-42b9-a28b-8986c8befee0" valueTypeId="96890c7e-05fd-4dba-a39c-ae7c89dff211"/>
+  </producedTypes>
+  <name>НастройкаСоединенияСЦентральнойБазой</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка соединения с центральной базой</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.НастройкаСоединенияСЦентральнойБазой.Form.Форма</defaultForm>
+  <forms uuid="92fce8c7-9a19-40d5-a067-f2b2858d6502">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

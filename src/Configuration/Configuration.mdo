@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eca215c2-caef-45a9-a47e-028571c3dc1c">
-  <name>МобильныйКлиентАвтономный</name>
+  <name>МобильноеПриложение</name>
   <synonym>
     <key>ru</key>
-    <value>Мобильный клиент (автономный)</value>
+    <value>Мобильное приложение</value>
   </synonym>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="9981d7d1-4eea-4dd7-9dad-2dead647df65"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="e734c4e7-6ef1-4267-bfdc-1289a1b726df"/>
@@ -15,6 +15,7 @@
   <configurationExtensionCompatibilityMode>8.3.26</configurationExtensionCompatibilityMode>
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <version>1.0</version>
   <usedMobileApplicationFunctionalities>
@@ -41,9 +42,13 @@
     <languageCode>ru</languageCode>
   </languages>
   <exchangePlans>ExchangePlan.АвтономныйМобильныйКлиент</exchangePlans>
+  <constants>Constant.АдресЦентральнойБазы</constants>
+  <constants>Constant.ЛогинЦентральнойБазы</constants>
+  <constants>Constant.ПарольЦентральнойБазы</constants>
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
   <documents>Document.ЗаказПокупателя</documents>
   <documents>Document.Доставка</documents>
   <enums>Enum.СтатусыДоставок</enums>
+  <dataProcessors>DataProcessor.НастройкаСоединенияСЦентральнойБазой</dataProcessors>
 </mdclass:Configuration>
