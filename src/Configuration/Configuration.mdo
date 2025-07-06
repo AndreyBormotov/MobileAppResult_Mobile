@@ -26,6 +26,14 @@
       <functionality>OSBackup</functionality>
       <use>true</use>
     </functionality>
+    <functionality>
+      <functionality>Camera</functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>NumberDialing</functionality>
+      <use>true</use>
+    </functionality>
   </usedMobileApplicationFunctionalities>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <dataLockControlMode>Managed</dataLockControlMode>
@@ -41,6 +49,10 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.Главная</subsystems>
+  <subsystems>Subsystem.Настройки</subsystems>
+  <roles>Role.Курьер</roles>
+  <roles>Role.ПолныеПрава</roles>
   <exchangePlans>ExchangePlan.АвтономныйМобильныйКлиент</exchangePlans>
   <constants>Constant.АдресЦентральнойБазы</constants>
   <constants>Constant.ЛогинЦентральнойБазы</constants>

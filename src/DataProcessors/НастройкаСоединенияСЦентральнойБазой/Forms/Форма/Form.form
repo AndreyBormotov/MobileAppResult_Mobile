@@ -144,21 +144,90 @@
       <textEdit>true</textEdit>
     </extInfo>
   </items>
-  <items xsi:type="form:Decoration">
-    <name>СтатусСоединения</name>
-    <id>13</id>
+  <items xsi:type="form:FormGroup">
+    <name>ГруппаДоступностьСервера</name>
+    <id>21</id>
+    <items xsi:type="form:Button">
+      <name>ПроверитьДоступность</name>
+      <id>19</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ПроверитьДоступностьРасширеннаяПодсказка</name>
+        <id>20</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>UsualButton</type>
+      <commandName>Form.Command.ПроверитьДоступность</commandName>
+      <representation>Auto</representation>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <placementArea>UserCmds</placementArea>
+      <representationInContextMenu>Auto</representationInContextMenu>
+    </items>
+    <items xsi:type="form:Decoration">
+      <name>СтатусСоединения</name>
+      <id>13</id>
+      <title>
+        <key>ru</key>
+        <value>Статус соединения:</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>СтатусСоединенияРасширеннаяПодсказка</name>
+        <id>15</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>СтатусСоединенияКонтекстноеМеню</name>
+        <id>14</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <groupHorizontalAlign>Center</groupHorizontalAlign>
+      <groupVerticalAlign>Center</groupVerticalAlign>
+      <extInfo xsi:type="form:PictureDecorationExtInfo">
+        <handlers>
+          <event>Click</event>
+          <name>ПроверитьДоступность</name>
+        </handlers>
+        <picture xsi:type="core:PictureRef">
+          <picture>StdPicture.AppearanceCheckIcon</picture>
+        </picture>
+        <hyperlink>true</hyperlink>
+        <fileDragMode>AsFileRef</fileDragMode>
+      </extInfo>
+    </items>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
     <title>
       <key>ru</key>
-      <value>Статус соединения:</value>
+      <value>Группа доступность сервера</value>
     </title>
-    <visible>true</visible>
-    <enabled>true</enabled>
-    <userVisible>
-      <common>true</common>
-    </userVisible>
     <extendedTooltip>
-      <name>СтатусСоединенияРасширеннаяПодсказка</name>
-      <id>15</id>
+      <name>ГруппаДоступностьСервераРасширеннаяПодсказка</name>
+      <id>22</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -166,52 +235,15 @@
         <horizontalAlign>Left</horizontalAlign>
       </extInfo>
     </extendedTooltip>
-    <contextMenu>
-      <name>СтатусСоединенияКонтекстноеМеню</name>
-      <id>14</id>
-      <autoFill>true</autoFill>
-    </contextMenu>
-    <autoMaxWidth>true</autoMaxWidth>
-    <autoMaxHeight>true</autoMaxHeight>
-    <groupHorizontalAlign>Center</groupHorizontalAlign>
-    <groupVerticalAlign>Center</groupVerticalAlign>
-    <extInfo xsi:type="form:PictureDecorationExtInfo">
-      <handlers>
-        <event>Click</event>
-        <name>ПроверитьДоступность</name>
-      </handlers>
-      <picture xsi:type="core:PictureRef">
-        <picture>StdPicture.AppearanceCheckIcon</picture>
-      </picture>
-      <hyperlink>true</hyperlink>
-      <fileDragMode>AsFileRef</fileDragMode>
+    <type>UsualGroup</type>
+    <extInfo xsi:type="form:UsualGroupExtInfo">
+      <group>AlwaysHorizontal</group>
+      <behavior>Auto</behavior>
+      <showLeftMargin>true</showLeftMargin>
+      <united>true</united>
+      <throughAlign>Auto</throughAlign>
+      <currentRowUse>Auto</currentRowUse>
     </extInfo>
-  </items>
-  <items xsi:type="form:Button">
-    <name>ПроверитьДоступность</name>
-    <id>19</id>
-    <visible>true</visible>
-    <enabled>true</enabled>
-    <userVisible>
-      <common>true</common>
-    </userVisible>
-    <extendedTooltip>
-      <name>ПроверитьДоступностьРасширеннаяПодсказка</name>
-      <id>20</id>
-      <type>Label</type>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <extInfo xsi:type="form:LabelDecorationExtInfo">
-        <horizontalAlign>Left</horizontalAlign>
-      </extInfo>
-    </extendedTooltip>
-    <type>UsualButton</type>
-    <commandName>Form.Command.ПроверитьДоступность</commandName>
-    <representation>Auto</representation>
-    <autoMaxWidth>true</autoMaxWidth>
-    <autoMaxHeight>true</autoMaxHeight>
-    <placementArea>UserCmds</placementArea>
-    <representationInContextMenu>Auto</representationInContextMenu>
   </items>
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
@@ -219,6 +251,10 @@
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
+  <handlers>
+    <event>OnOpen</event>
+    <name>ПриОткрытии</name>
+  </handlers>
   <handlers>
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
