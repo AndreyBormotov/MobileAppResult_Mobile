@@ -9,4 +9,5 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>DataProcessor.НастройкаСоединенияСЦентральнойБазой</content>
   <content>ExchangePlan.АвтономныйМобильныйКлиент</content>
+  <content>ExchangePlan.ОбменСЦентральнойБазой</content>
 </mdclass:Subsystem>

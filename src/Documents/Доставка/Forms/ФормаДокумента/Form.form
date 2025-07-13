@@ -177,6 +177,10 @@
         <dataPath xsi:type="form:DataPath">
           <segments>Объект.Статус</segments>
         </dataPath>
+        <handlers>
+          <event>OnChange</event>
+          <name>СтатусПриИзменении</name>
+        </handlers>
         <extendedTooltip>
           <name>СтатусРасширеннаяПодсказка</name>
           <id>21</id>
@@ -586,6 +590,7 @@
     <enableStartDrag>true</enableStartDrag>
     <enableDrag>true</enableDrag>
     <fileDragMode>AsFileRef</fileDragMode>
+    <rowFilter xsi:type="core:UndefinedValue"/>
   </items>
   <items xsi:type="form:FormField">
     <name>Комментарий</name>
@@ -631,6 +636,10 @@
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
+  <handlers>
+    <event>FillCheckProcessingAtServer</event>
+    <name>ОбработкаПроверкиЗаполненияНаСервере</name>
+  </handlers>
   <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>

@@ -23,7 +23,7 @@
       <use>true</use>
     </functionality>
     <functionality>
-      <functionality>OSBackup</functionality>
+      <functionality>NumberDialing</functionality>
       <use>true</use>
     </functionality>
     <functionality>
@@ -31,7 +31,7 @@
       <use>true</use>
     </functionality>
     <functionality>
-      <functionality>NumberDialing</functionality>
+      <functionality>OSBackup</functionality>
       <use>true</use>
     </functionality>
   </usedMobileApplicationFunctionalities>
@@ -54,6 +54,7 @@
   <roles>Role.Курьер</roles>
   <roles>Role.ПолныеПрава</roles>
   <exchangePlans>ExchangePlan.АвтономныйМобильныйКлиент</exchangePlans>
+  <exchangePlans>ExchangePlan.ОбменСЦентральнойБазой</exchangePlans>
   <constants>Constant.АдресЦентральнойБазы</constants>
   <constants>Constant.ЛогинЦентральнойБазы</constants>
   <constants>Constant.ПарольЦентральнойБазы</constants>
