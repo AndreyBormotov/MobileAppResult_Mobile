@@ -53,6 +53,7 @@
   <subsystems>Subsystem.Настройки</subsystems>
   <roles>Role.Курьер</roles>
   <roles>Role.ПолныеПрава</roles>
+  <commonModules>CommonModule.ОбменДанными</commonModules>
   <exchangePlans>ExchangePlan.АвтономныйМобильныйКлиент</exchangePlans>
   <exchangePlans>ExchangePlan.ОбменСЦентральнойБазой</exchangePlans>
   <constants>Constant.АдресЦентральнойБазы</constants>
