@@ -61,8 +61,8 @@
   <constants>Constant.ПарольЦентральнойБазы</constants>
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
-  <documents>Document.ЗаказПокупателя</documents>
   <documents>Document.Доставка</documents>
+  <documents>Document.ЗаказПокупателя</documents>
   <enums>Enum.СтатусыДоставок</enums>
   <dataProcessors>DataProcessor.НастройкаСоединенияСЦентральнойБазой</dataProcessors>
 </mdclass:Configuration>
