@@ -76,24 +76,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="a1f7a7ae-7e74-44bc-b1e9-f71031c5287e">
-    <name>Фото</name>
-    <synonym>
-      <key>ru</key>
-      <value>Фото</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>150</length>
-      </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <attributes uuid="67011b6a-fcd9-474e-b8ba-d6289ebb8e69">
     <name>Статус</name>
     <synonym>
